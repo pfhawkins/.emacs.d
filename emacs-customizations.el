@@ -4,7 +4,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (wombat)))
- '(custom-safe-themes (quote ("3ccdb31bb1b09fb2d175f75c4bc2d06bde7ae3498176b7b749bd1b94b48d16b9" default))))
+ '(custom-safe-themes (quote ("3ccdb31bb1b09fb2d175f75c4bc2d06bde7ae3498176b7b749bd1b94b48d16b9" default)))
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
