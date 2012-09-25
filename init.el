@@ -8,5 +8,8 @@
 
 (setq user-emacs-directory pfh-emacs-config-dir)
 
+(setq package-archives
+	     '(("melpa" . "http://melpa.milkbox.net/packages/")))
+
 (setq backup-directory-alist
       (list (cons "." (expand-file-name "backup" user-emacs-directory))))
