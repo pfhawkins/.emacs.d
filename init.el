@@ -5,3 +5,8 @@
 ;; Set up 'custom' system
 (setq custom-file (expand-file-name "emacs-customizations.el" pfh-emacs-config-dir))
 (load custom-file)
+
+(setq user-emacs-directory pfh-emacs-config-dir)
+
+(setq backup-directory-alist
+      (list (cons "." (expand-file-name "backup" user-emacs-directory))))
