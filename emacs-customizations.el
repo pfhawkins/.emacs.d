@@ -6,6 +6,7 @@
  '(custom-enabled-themes (quote (wombat)))
  '(custom-safe-themes (quote ("3ccdb31bb1b09fb2d175f75c4bc2d06bde7ae3498176b7b749bd1b94b48d16b9" default)))
  '(ido-mode (quote both) nil (ido))
+ '(speedbar-supported-extension-expressions (quote (".[ch]\\(\\+\\+\\|pp\\|c\\|h\\|xx\\)?" ".tex\\(i\\(nfo\\)?\\)?" ".el" ".emacs" ".l" ".lsp" ".p" ".java" ".js" ".f\\(90\\|77\\|or\\)?" ".ad[abs]" ".p[lm]" ".tcl" ".m" ".scm" ".pm" ".py" ".g" ".s?html" ".ma?k" "[Mm]akefile\\(\\.in\\)?" ".erb" ".rb")))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
