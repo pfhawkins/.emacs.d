@@ -15,3 +15,8 @@
 
 (setq backup-directory-alist
       (list (cons "." (expand-file-name "backup" user-emacs-directory))))
+
+(server-start)
+
+(setq auto-mode-alist 
+      (cons '("\\.md" . markdown-mode) auto-mode-alist))
